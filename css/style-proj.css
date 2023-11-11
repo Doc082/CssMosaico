@@ -1,0 +1,91 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.head{
+    background-image: url("../uploads/example.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.head-text{
+    background-color: rgba(0,0,0,75%);
+    color: white;
+    text-align: center;
+}
+
+.form-div{
+    text-align: left;
+    margin: auto;
+    width: 50%;
+    border-left: 6px solid blue;
+    padding: 20px;
+}
+
+.form-label{
+    font-weight: bold;
+    font-size: large;
+    margin-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-input{
+    margin: 50px;
+    border: 2px solid black;
+}
+
+.form-tx-input{
+    border: 2px solid black;
+    font-size: large;
+    font-weight: bold;
+    margin: 20px;
+    padding: 20px;
+}
+
+input[type=file]::file-selector-button {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+    color: white;
+    background: dodgerblue;
+}
+
+input[type=file]::file-selector-button:hover {
+    background: darkblue;
+}
+
+/* Build Page */
+.error {
+    text-align: center;
+    background-color: coral;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.button{
+    background-color: dodgerblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+    color: white;
+}
+
+.button:hover{
+    background-color: darkblue;
+}
